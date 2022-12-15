@@ -6,6 +6,10 @@ Supported Blender Version: >= 2.8.0
 
 支持的Blender版本: >= 2.8.0
 
+Video Demo: https://www.bilibili.com/video/BV1cW4y1T7bV/?share_source=copy_web&vd_source=274308cad241acba810d206ac5a69844
+
+视频演示：https://www.youtube.com/watch?v=Vf-z0z9YHPg&t=3s
+
 ## Core Features
 
 ### Save and Load Any Nodes
