@@ -36,7 +36,7 @@ will also be supported without the need to update the addon, because this addon 
     
 ### Out of Scope
 
-* NodeTreeStore won't store reference to objects, materials, scripts and other resources used in nodeTree. Only Image texture are supported.
+* NodeTreeStore won't store reference to objects, scripts and other resources used in nodeTree. Only Image texture are supported. Referenced object will be restored as an empty object, with location ,rotation and scale. Referecend material in Geometry Nodes will also be restored.
 * If you use Frame in Frame when doing layout, the location of the Frame might not be recovered correctly.
 * Some TextureNodes has special attribute that can't be saved. 
 
@@ -85,7 +85,7 @@ will also be supported without the need to update the addon, because this addon 
 
 ### 注意事项
 
-* 节点树仓库不会保存节点树引用的，对象，材质资源，文本资源等，它们并不被视为节点树的一部分。只有图片资源被视为节点的一部分。
+* 节点树仓库不会保存节点树引用的对象，文本资源等，它们并不被视为节点树的一部分。只有图片资源被视为节点的一部分。引用的物体将会被还原为空物体，保留位置，旋转和缩放信息，几何节点引用的材质也可以被还原。
 * 布局时，如果你在一个框里面套另一个框，可能会导致节点的位置信息无法被正确恢复。
 * 一些纹理节点具有特殊的属性，可能无法被保存
 
